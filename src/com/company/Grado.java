@@ -6,8 +6,7 @@ public class Grado {
     private List<Estudiante> estudiantes;
     private String nombre_grado;
 
-    public Grado(List<Estudiante> estudiantes, String nombre_grado) {
-        this.estudiantes = estudiantes;
+    public Grado(String nombre_grado) {
         this.nombre_grado = nombre_grado;
     }
 
